@@ -1,0 +1,127 @@
+.culture-view-a {
+    color: #4C4C4E;
+    font-size: 20px;
+    padding: 30px 0 150px 0;
+    & > p {
+        text-align: center;
+        // font-family: OPPOSans R;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    & > ul {
+        display: flex;
+        padding-top: 65px;
+        line-height: 30px;
+        & > li {
+            flex: 1;
+            box-shadow:0px 25px 50px 0px rgba(0,0,0,0.05);
+            border:1px solid rgba(225,225,225,1);
+            padding-bottom: 30px;
+            &:not(:first-child) {
+                margin-left: 40px;
+            }
+            & > p {
+                padding: 0 24px;
+            }
+            & > p.title {
+                font-size: 26px;
+                color: #48A0CE;
+                // font-family: OPPOSans B;
+                font-weight: 500;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.culture-view-b {
+    background: #F7F8F9;
+    font-size: 26px;
+    // font-family: OPPOSans L;
+    color: #4C4C4E;
+    line-height: 34px;
+    text-align: right;
+    padding: 107px 0 134px 0;
+    .article-content {
+        .title {
+            color: #000;
+            // font-family: OPPOSans B;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        & > .b-img {
+            position: relative;
+            color: #fff;
+            font-size: 24px;
+            margin-top: 60px;
+            & > ul {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                padding: 10px;
+                margin-top: -215px;
+                & > li {
+                    margin: 30px 0;
+                    transition: all .5s;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    background: linear-gradient(90deg,rgba(126, 206, 233, 1) 0%,rgba(72, 160, 206, 1) 100%);
+                    width: 120px;
+                    position: absolute;
+                    right: 15px;
+                    cursor: pointer;
+                    & > p {
+                        color: #fff;
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding: 10px 15px;
+                        
+                    }
+                    .text {
+                        width: 340px;
+                        font-size: 16px;
+                        color: #949697;
+                        text-align: left;
+                        line-height: 25px;
+                        background: rgba(255, 255, 255, .9);
+                        position: absolute;
+                        left: -340px;
+                        top: -1px;
+                        height: 0px;
+                        transition: all .5s;
+                        overflow: hidden;
+                        & > p {
+                            padding: 15px;
+                        }
+                    }
+                    &:hover {
+                        .text {
+                            height: 80px;
+                            box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.05);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.culture-view-c {
+    border-bottom: 1px solid #E7F5FD;
+    .embed {
+        color: #4C4C4E;
+        // font-family: OPPOSans L;
+        line-height: 45px;
+        & > div {
+            margin-top: 75px;
+            .title {
+                // font-family: OPPOSans H;
+                font-size: 30px;
+            }
+            .well-button {
+                width: 328px;
+            }
+        }
+    }
+}

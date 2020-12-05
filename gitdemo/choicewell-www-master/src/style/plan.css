@@ -1,0 +1,585 @@
+.view-title {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+  line-height: 30px;
+  padding: 8px 0;
+}
+
+.plan-view-a {
+  overflow: hidden;
+  padding: 60px 0 130px 0;
+}
+
+.plan-view-a .article-content {
+  text-align: center;
+  font-size: 20px;
+  color: #4C4C4E;
+  line-height: 34px;
+  padding: 50px 0;
+}
+
+.plan-view-a .article-content > .btn {
+  padding-top: 80px;
+}
+
+.plan-view-a .article-content::after, .plan-view-a .article-content::before {
+  content: '';
+  display: block;
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  z-index: -1;
+}
+
+.plan-view-a .article-content::after {
+  right: 75%;
+  background-image: url("../images/wiring/bg1.png");
+  background-position: right top;
+}
+
+.plan-view-a .article-content::before {
+  left: 75%;
+  background-image: url("../images/wiring/bg2.png");
+  background-position: left top;
+}
+
+.plan-view-a .article-content .view-title {
+  margin-bottom: 30px;
+}
+
+.plan-view-b {
+  text-align: center;
+}
+
+.plan-view-b > ul {
+  display: flex;
+  padding: 60px 0 100px 0;
+  font-size: 16px;
+  color: #949697;
+}
+
+.plan-view-b > ul > li {
+  flex: 1;
+  border: 1px solid #E1E1E1;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  border-radius: 6px;
+  padding: 40px 0 50px 0;
+}
+
+.plan-view-b > ul > li:not(:first-child) {
+  margin-left: 36px;
+}
+
+.plan-view-b > ul > li > img {
+  display: inline-block;
+  height: 105px;
+  margin-bottom: 10px;
+}
+
+.plan-view-b > ul .title {
+  font-size: 24px;
+  color: #4C4C4E;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.plan-view-c {
+  overflow: hidden;
+}
+
+.plan-view-c .article-content > div {
+  display: flex;
+  color: #2B406E;
+  padding: 120px 0;
+  position: relative;
+  font-size: 20px;
+}
+
+.plan-view-c .article-content > div::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: calc(100% - 220px);
+  background: #F4FBFB;
+  position: absolute;
+  top: 0;
+  z-index: -5;
+}
+
+.plan-view-c .article-content > div:nth-child(odd)::before {
+  left: calc(45% + 180px);
+}
+
+.plan-view-c .article-content > div:nth-child(odd) > div {
+  padding-right: 36px;
+}
+
+.plan-view-c .article-content > div:nth-child(odd) > div > div {
+  padding-right: 60px;
+}
+
+.plan-view-c .article-content > div:nth-child(odd) > div > div::before {
+  right: 100%;
+}
+
+.plan-view-c .article-content > div:nth-child(even)::before {
+  right: calc(45% + 180px);
+}
+
+.plan-view-c .article-content > div:nth-child(even) > div {
+  padding-left: 36px;
+}
+
+.plan-view-c .article-content > div:nth-child(even) > div > div {
+  padding-left: 60px;
+}
+
+.plan-view-c .article-content > div:nth-child(even) > div > div::before {
+  left: 100%;
+}
+
+.plan-view-c .article-content > div:nth-child(even) > div .title {
+  text-align: right;
+}
+
+.plan-view-c .article-content > div > img {
+  display: block;
+  width: 55%;
+  border-top: 4px solid #2AC3EE;
+}
+
+.plan-view-c .article-content > div > div {
+  flex: 1;
+  text-align: justify;
+  position: relative;
+  line-height: 32px;
+}
+
+.plan-view-c .article-content > div > div > div {
+  background: #F4FBFB;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 36px);
+  height: calc(100% - 100px);
+}
+
+.plan-view-c .article-content > div > div > div::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #F4FBFB;
+  position: absolute;
+  top: 0;
+}
+
+.plan-view-c .article-content > div .title {
+  color: #4C4C4E;
+  font-size: 34px;
+  padding: 10px 0;
+}
+
+.plan-view-c .article-content > div .title > span {
+  display: inline-block;
+  width: 80px;
+  height: 22px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.plan-view-c .article-content > div .title > span::before {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.plan-view-c .article-content > div .view-c-wiring-a::before {
+  background-image: url("../images/wiring/num1.png");
+}
+
+.plan-view-c .article-content > div .view-c-wiring-b::before {
+  background-image: url("../images/wiring/num5.png");
+}
+
+.plan-view-c .article-content > div .view-c-wiring-c::before {
+  background-image: url("../images/wiring/num3.png");
+}
+
+.plan-view-c .article-content > div .view-c-wiring-d::before {
+  background-image: url("../images/wiring/num4.png");
+}
+
+.plan-view-c .article-content > div .view-c-computer-a::before {
+  background-image: url("../images/computer/num1.png");
+}
+
+.plan-view-c .article-content > div .view-c-computer-b::before {
+  background-image: url("../images/computer/num2.png");
+}
+
+.plan-view-c .article-content > div .view-c-records-a::before {
+  background-image: url("../images/records/num1.png");
+}
+
+.plan-view-c .article-content > div .view-c-records-b::before {
+  background-image: url("../images/records/num2.png");
+}
+
+.plan-view-c .article-content > div .view-c-records-c::before {
+  background-image: url("../images/records/num3.png");
+}
+
+.plan-view-c .article-content > div .view-c-records-d::before {
+  background-image: url("../images/records/num4.png");
+}
+
+.plan-view-c .article-content > div .view-c-security-a::before {
+  background-image: url("../images/security/num1.png");
+}
+
+.plan-view-c .article-content > div .view-c-security-b::before {
+  background-image: url("../images/security/num2.png");
+}
+
+.plan-view-c .article-content > div .view-c-security-c::before {
+  background-image: url("../images/security/num3.png");
+}
+
+.plan-view-c .article-content > div .view-c-intelligent-a::before {
+  background-image: url("../images/intelligent/num1.png");
+}
+
+.plan-view-c .article-content > div .view-c-intelligent-b::before {
+  background-image: url("../images/intelligent/num2.png");
+}
+
+.plan-view-c .article-content > div .view-c-intelligent-c::before {
+  background-image: url("../images/intelligent/num3.png");
+}
+
+.plan-view-c .article-content > div .view-c-intelligent-d::before {
+  background-image: url("../images/intelligent/num4.png");
+}
+
+.special-view-c .article-content > div > img {
+  height: 451px;
+}
+
+.plan-view-d {
+  padding: 20px 0 60px 0;
+}
+
+.plan-view-d .view-title {
+  text-align: center;
+  line-height: 40px;
+}
+
+.plan-view-d > ul {
+  display: flex;
+  padding-bottom: 50px;
+  color: #949697;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.plan-view-d > ul > li {
+  flex: 1;
+}
+
+.plan-view-d > ul > li:not(:first-child) {
+  margin-left: 30px;
+}
+
+.plan-view-d > ul .title {
+  font-size: 24px;
+  color: #4C4C4E;
+  padding: 20px 0 10px 0;
+  font-weight: 500;
+}
+
+.plan-view-d > ul .title > span {
+  display: inline-block;
+  border-bottom: 2px solid #03B8EC;
+  line-height: 36px;
+}
+
+.plan-view-e {
+  background: url("../images/wiring/bg3.png") no-repeat center;
+  background-size: 100% 100%;
+  padding: 100px 0;
+}
+
+.plan-view-e .view-title {
+  text-align: center;
+}
+
+.plan-view-e .article-content {
+  font-size: 22px;
+  color: #888;
+  line-height: 40px;
+  padding-top: 30px;
+}
+
+.plan-view-e .article-content .title {
+  color: #4C4C4E;
+  font-weight: 500;
+}
+
+.plan-view-e .article-content > div {
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: left 80px center;
+  background-size: 80px auto;
+}
+
+.plan-view-e .article-content > div.view-e-a {
+  background-image: url("../images/wiring/img9.png");
+}
+
+.plan-view-e .article-content > div.view-e-b {
+  background-image: url("../images/wiring/img10.png");
+}
+
+.plan-view-e .article-content > div.view-e-c {
+  background-image: url("../images/wiring/img11.png");
+}
+
+.plan-view-e .article-content > div.view-e-d {
+  background-image: url("../images/wiring/img12.png");
+}
+
+.plan-view-e .article-content > div.view-e-e {
+  background-image: url("../images/records/img8.png");
+}
+
+.plan-view-e .article-content > div.view-e-f {
+  background-image: url("../images/records/img9.png");
+}
+
+.plan-view-e .article-content > div.view-e-g {
+  background-image: url("../images/records/img10.png");
+}
+
+.plan-view-e .article-content > div.view-e-l {
+  background-image: url("../images/records/img11.png");
+}
+
+.plan-view-f {
+  background: #F2F9FF;
+  padding-top: 80px;
+}
+
+.plan-view-f .embed {
+  color: #4C4C4E;
+  line-height: 30px;
+  font-size: 24px;
+  align-items: normal;
+}
+
+.plan-view-f .embed > div {
+  margin-top: 75px;
+}
+
+.plan-view-f .embed > div .title {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.plan-view-f .embed > div > ul {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.plan-view-f .embed > div > ul > li {
+  display: inline-block;
+  width: 230px;
+  height: 230px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.plan-view-f .embed > div > ul > li > img {
+  display: block;
+  width: 130px;
+  position: absolute;
+  z-index: 10;
+  top: 103px;
+  left: 50%;
+  margin-left: -65px;
+}
+
+.plan-view-f .embed > div > ul > li::before {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 60%;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 28px;
+  border: 1px solid #E1E1E1;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 5;
+  transform: rotate(-45deg);
+}
+
+.plan-view-g {
+  text-align: center;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+.plan-view-g .title {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.plan-view-g .b-content {
+  padding: 50px 0;
+  position: relative;
+  display: flex;
+  color: #4C4C4E;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.plan-view-g .b-content > .content-img > img {
+  height: 516px;
+  display: none;
+}
+
+.plan-view-g .b-content > .content-img > img.active {
+  display: block;
+}
+
+.plan-view-g .b-content > ul {
+  flex: 1;
+  text-align: right;
+}
+
+.plan-view-g .b-content > ul > li {
+  padding: 20px 30px;
+  background: linear-gradient(270deg, #f0f2f6 0%, rgba(246, 246, 246, 0) 100%);
+  border-radius: 0 16px 16px 0;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.plan-view-g .b-content > ul > li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.plan-view-g .b-content > ul > .active {
+  background: linear-gradient(270deg, #d3e4ff 0%, rgba(239, 243, 249, 0) 100%);
+}
+
+.plan-view-g .b-content > ul > .active p {
+  padding-top: 20px;
+  font-size: 24px;
+  color: #2B406E;
+}
+
+.plan-view-l {
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 50px 0 200px 0;
+}
+
+.plan-view-l .l-view-content {
+  background: #EDFAFB;
+  padding: 70px 30px 150px 0;
+  color: #2B406E;
+  position: relative;
+}
+
+.plan-view-l .l-view-content::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #EDFAFB;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+
+.plan-view-l .title {
+  color: #4C4C4E;
+  font-size: 34px;
+  padding: 50px 0;
+}
+
+.plan-view-l .title > span {
+  display: inline-block;
+  width: 80px;
+  height: 22px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.plan-view-l .title > span::before {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url("../images/computer/num3.png");
+}
+
+.plan-view-l .l-view-service {
+  display: flex;
+  color: #4C4C4E;
+  font-size: 20px;
+  font-weight: 500;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  border: 1px solid #E1E1E1;
+  width: calc(100% - 60px);
+  position: absolute;
+  bottom: -70px;
+  left: 30px;
+}
+
+.plan-view-l .l-view-service > li {
+  flex: 1;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.plan-view-l .l-view-service > li:not(:first-child) {
+  border-left: 1px solid #979797;
+}
+
+.plan-view-l .l-view-service > li > img {
+  display: inline-block;
+  height: 50px;
+  margin-top: 20px;
+}

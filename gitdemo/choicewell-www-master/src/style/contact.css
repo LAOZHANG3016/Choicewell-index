@@ -1,0 +1,252 @@
+.contact-view-a {
+  position: relative;
+  background-image: url("../images/contact/bg1.png"), url("../images/contact/bg2.png");
+  background-repeat: no-repeat;
+  background-position: left -90% center, right -90% center;
+  background-size: auto 100%;
+  padding: 100px 0 150px 0;
+}
+
+.contact-view-a .article-content .title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.contact-view-a .article-content .a-content {
+  display: flex;
+  padding-top: 90px;
+}
+
+.contact-view-a .article-content .a-content > ul {
+  flex: 1;
+  margin-left: 36px;
+}
+
+.contact-view-a .article-content .a-content > ul > li {
+  box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  background: #fff;
+  padding: 44px 80px 44px 125px;
+  font-size: 18px;
+  color: #828282;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 30px center;
+  background-size: 70px auto;
+}
+
+.contact-view-a .article-content .a-content > ul > li::before {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  margin-top: -18px;
+}
+
+.contact-view-a .article-content .a-content > ul > li:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+.contact-view-a .article-content .a-content > ul > li:nth-child(1) {
+  background-image: url("../images/contact/img1.png");
+}
+
+.contact-view-a .article-content .a-content > ul > li:nth-child(2) {
+  background-image: url("../images/contact/img2.png");
+}
+
+.contact-view-a .article-content .a-content > ul > li:nth-child(3) {
+  background-image: url("../images/contact/img3.png");
+}
+
+.contact-view-a .article-content .a-content > ul > li:nth-child(4) {
+  background-image: url("../images/contact/img4.png");
+}
+
+.contact-view-a .article-content .a-content > ul > li > p:nth-child(1) {
+  color: #18213C;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.contact-view-a .article-content .a-content > ul > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.contact-view-a .article-content .a-content > ul > li:hover {
+  cursor: pointer;
+}
+
+.contact-view-a .article-content .a-content > ul > li:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #FF8E00;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.contact-view-a .article-content .a-content > div {
+  flex: 1;
+  box-shadow: 0px 20px 20px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+  background: #fff;
+  padding: 40px 30px 30px 30px;
+}
+
+.contact-view-a .article-content .a-content > div > p {
+  color: #18213C;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-view-a .article-content .a-content > div .register-form {
+  font-size: 20px;
+  padding: 20px 10px 0 10px;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li {
+  padding: 10px 10px 10px 70px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 28px auto;
+  position: relative;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #E1E1E1;
+  border-right: 1px solid #E1E1E1;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 25px;
+  top: 22px;
+  z-index: 10;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li > input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 20px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li ::-webkit-input-placeholder {
+  color: #18213C;
+  font-size: 20px;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li label.error {
+  color: #C03939;
+  font-size: 14px;
+  position: absolute;
+  bottom: -12px;
+  padding: 0;
+  left: 70px;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-lastName {
+  background-image: url("../images/contact/img5.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-firstName {
+  background-image: url("../images/contact/img6.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-company {
+  background-image: url("../images/contact/img7.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-duty {
+  background-image: url("../images/contact/img8.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-phone {
+  background-image: url("../images/contact/img9.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-email {
+  background-image: url("../images/contact/img10.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-li-country {
+  background-image: url("../images/contact/img11.png");
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-btn {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.contact-view-a .article-content .a-content > div .register-form .form-btn .well-button {
+  width: 328px;
+}
+
+.contact-view-b {
+  background: #F9F9F9;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 100px;
+}
+
+.contact-view-b .title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.contact-view-b .article-content {
+  font-size: 18px;
+  color: #949697;
+}
+
+.contact-view-b .article-content > ul {
+  display: flex;
+  padding: 30px 0;
+}
+
+.contact-view-b .article-content > ul > li {
+  flex: 1;
+}
+
+.contact-view-b .article-content > ul > li > img {
+  display: inline-block;
+  height: 100px;
+}
+
+.contact-view-b .article-content > ul > li:nth-child(2) {
+  margin: 0 100px;
+}
+
+.contact-view-b .article-content > ul .sub-title {
+  font-size: 21px;
+  color: #4C4C4E;
+  font-weight: 500;
+  padding: 30px 0 20px 0;
+}

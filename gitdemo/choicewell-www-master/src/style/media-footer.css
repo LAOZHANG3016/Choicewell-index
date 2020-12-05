@@ -1,0 +1,9 @@
+@media screen and (max-width:1366px){
+    footer .footer-info{
+        padding-top: 25px;
+        height: 290px;
+    }
+    footer .footer-info>ul .title{
+        padding-bottom: 10px;
+    }
+}

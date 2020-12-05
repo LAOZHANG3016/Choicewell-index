@@ -1,0 +1,236 @@
+.join-title {
+  font-size: 36px;
+  color: #4C4C4E;
+  font-weight: 500;
+}
+
+.banner-bom {
+  background-color: #EDF6F8;
+}
+
+.join-view-a {
+  background: #EDF6F8;
+  padding-top: 120px;
+  position: relative;
+  top: -80px;
+}
+
+.join-view-a .join-title {
+  text-align: center;
+}
+
+.join-view-a .article-content {
+  padding-bottom: 330px;
+  line-height: 32px;
+}
+
+.join-view-a .article-content > img {
+  display: block;
+  width: 50%;
+  margin-top: 200px;
+}
+
+.join-view-a .article-content .a-text {
+  padding: 70px 50px 90px 50px;
+  font-size: 20px;
+  background: #fff;
+  position: absolute;
+  left: 220px;
+  bottom: 190px;
+  width: 45%;
+  z-index: 20;
+}
+
+.join-view-a .article-content .a-info {
+  padding: 120px 95px 0 95px;
+  color: #fff;
+  background-image: linear-gradient(#0976A3, #619FFC);
+  position: absolute;
+  z-index: 10;
+  width: 55%;
+  height: 600px;
+  bottom: 250px;
+  right: 0;
+  font-size: 20px;
+}
+
+.join-view-a .article-content .a-info > p {
+  padding-bottom: 25px;
+}
+
+.join-view-a .article-content .a-info > .well-button {
+  position: absolute;
+  bottom: 90px;
+  right: 95px;
+}
+
+.join-view-b {
+  font-size: 20px;
+  padding: 120px 0 160px 0;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.join-view-b > .article-content > div {
+  display: flex;
+}
+
+.join-view-b > .article-content > div > div {
+  position: relative;
+}
+
+.join-view-b > .article-content > div .b-text {
+  flex: 1;
+}
+
+.join-view-b > .article-content > div .b-img {
+  width: 52%;
+  margin-left: 36px;
+  padding-top: 60px;
+}
+
+.join-view-b > .article-content > div .b-img > img {
+  display: block;
+  width: 100%;
+}
+
+.join-view-b > .article-content > div .b-img::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  background: #F4F6FB;
+  z-index: -5;
+}
+
+.join-view-b > .article-content > div .b-text-p {
+  padding: 30px 30px 0 0;
+}
+
+.join-view-b > .article-content > div .b-text-deep {
+  color: #2B406E;
+  background: #F4F6FB;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 40px 60px 40px 0;
+}
+
+.join-view-b > .article-content > div .b-text-deep::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #F4F6FB;
+  position: absolute;
+  top: 0;
+}
+
+.join-view-b > .article-content .b-content-a {
+  padding-bottom: 160px;
+}
+
+.join-view-b > .article-content .b-content-a .b-img::before {
+  right: -190px;
+}
+
+.join-view-b > .article-content .b-content-a .b-text-deep::before {
+  left: none;
+  left: -100%;
+}
+
+.join-view-b > .article-content .b-content-b .join-title {
+  line-height: 50px;
+}
+
+.join-view-b > .article-content .b-content-b .b-text {
+  text-align: right;
+}
+
+.join-view-b > .article-content .b-content-b .b-text .b-text-p {
+  padding-right: 0;
+}
+
+.join-view-b > .article-content .b-content-b .b-img {
+  padding-top: 115px;
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.join-view-b > .article-content .b-content-b .b-img::before {
+  left: -190px;
+  top: -30px;
+}
+
+.join-view-b > .article-content .b-content-b .b-text-deep {
+  padding-right: 0;
+}
+
+.join-view-b > .article-content .b-content-b .b-text-deep::before {
+  right: -100%;
+}
+
+.join-view-c {
+  overflow: hidden;
+}
+
+.join-view-c > .article-content {
+  padding: 120px 120px 170px 120px;
+  height: 770px;
+  overflow: visible;
+}
+
+.join-view-c > .article-content > div {
+  width: 100%;
+}
+
+.join-view-c > .article-content > div .swiper-slide {
+  padding-left: 95px;
+  padding-right: 110px;
+}
+
+.join-view-c .staff-info {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.05), 0px -4px 0px 0px #03b8ec;
+  font-size: 20px;
+  line-height: 32px;
+  color: #949697;
+  padding: 50px 0 0 40px;
+  position: relative;
+}
+
+.join-view-c .staff-info .title {
+  font-size: 32px;
+  color: #4C4C4E;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.join-view-c .staff-info .info-text {
+  width: 55%;
+}
+
+.join-view-c .staff-info .well-button {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+}
+
+.join-view-c .staff-info > img {
+  display: block;
+  width: 50%;
+  position: absolute;
+  bottom: -80px;
+  right: -110px;
+}
+
+.join-view-c .staff-info .info-name {
+  position: absolute;
+  bottom: 60px;
+  left: 40px;
+  color: #4C4C4E;
+}

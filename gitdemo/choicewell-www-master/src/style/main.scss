@@ -1,0 +1,298 @@
+// @font-face {
+//   font-family: OPPOSans;
+//   src: url("./oppo-sans/OPPOSans-M.ttf");
+// }
+// @font-face {
+//   font-family: OPPOSans H;
+//   src: url("./oppo-sans/OPPOSans-H.ttf");
+// }
+// @font-face {
+//   font-family: OPPOSans L;
+//   src: url("./oppo-sans/OPPOSans-L.ttf");
+// }
+// @font-face {
+//   font-family: OPPOSans B;
+//   src: url("./oppo-sans/OPPOSans-B.ttf");
+// }
+// @font-face {
+//   font-family: OPPOSans R;
+//   src: url("./oppo-sans/OPPOSans-R.ttf");
+// }
+// @font-face {
+//   font-family: Alibaba Heavy;
+//   src: url("./Alibaba-PuHuiTi-Heavy.ttf");
+// }
+// @font-face {
+//   font-family: MADETOMMY B;
+//   src: url("./made-tommy/MADE TOMMY Bold_PERSONAL USE.otf");
+// }
+// @font-face {
+//   font-family: MADETOMMY;
+//   src: url("./made-tommy/MADE TOMMY Medium_PERSONAL USE.otf");
+// }
+
+html,
+body,
+div,
+header,
+footer,
+article,
+nav,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+tt,
+var,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+body {
+  font-family: PingFang SC, 微软雅黑;
+  font-size: 14px;
+  color: #000;
+  min-width: 1000px;
+  max-width: 2000px;
+  min-height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal;
+}
+fieldset,
+img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  background: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearF::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.response-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+%clearFlex::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.article-content {
+  width: 80%;
+  min-width: 1000px;
+  max-width: 1250px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.well-button {
+  display: inline-block;
+  border: 1px solid #babacb;
+  color: #232333;
+  font-size: 20px;
+  padding: 0 30px;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  &[type="orange"] {
+    background: #ff8000;
+    border-color: #ff8000;
+    color: #fff;
+  }
+  &.well-button-hover {
+    &:hover {
+      background: #f26d20;
+      border-color: #f26d20;
+      color: #fff;
+    }
+  }
+}
+
+.banner-view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  .header-tem,
+  .banner-shade,
+  .banner-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .header-tem {
+    z-index: 30;
+    height: 90px;
+  }
+  .banner-shade {
+    z-index: 10;
+  }
+  .banner-info {
+    z-index: 20;
+    color: #fff;
+    font-size: 38px;
+    line-height: 50px;
+    // font-family: OPPOSans R;
+    p {
+      padding: 5px 0;
+      &.title {
+        line-height: 90px;
+        font-size: 58px;
+        // font-family: Alibaba Heavy;
+        font-weight: 500;
+        padding-bottom: 20px;
+        font-weight: 600;
+      }
+    }
+    & > .article-content {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
+}
+
+.banner-bom {
+  background: url("../images/index/banner-bom-bg.png") no-repeat top center;
+  background-size: 100% auto;
+  position: relative;
+  top: -80px;
+  min-height: 120px;
+  z-index: 1;
+}
+
+.nav-tem {
+  position: fixed;
+  top: 50%;
+  right: -310px;
+  margin-top: -420px;
+  z-index: 100;
+  width: 460px;
+  height: 610px;
+  transition: all 0.5s;
+  &:hover {
+    right: -60px;
+  }
+}
+
+.footer-tem {
+  height: 421px;
+}
+
+.contact-tem {
+  width: 100%;
+  position: relative;
+  & > .embed,
+  & > embed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+  }
+  & > .embed {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: #fff;
+    height: 100%;
+    & > div {
+      margin-bottom: 55px;
+      .title {
+        font-size: 44px;
+        // font-family: OPPOSans B;
+        font-weight: 500;
+        line-height: 60px;
+        padding-bottom: 20px;
+      }
+      .contact-btn {
+        padding-top: 45px;
+      }
+      .contact-btn .well-button {
+        padding: 0 40px;
+      }
+    }
+  }
+}

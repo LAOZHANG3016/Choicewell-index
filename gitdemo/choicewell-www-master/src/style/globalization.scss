@@ -1,0 +1,106 @@
+.global-view-a {
+    font-size: 32px;
+    color: #4C4C4E;
+    text-align: center;
+    line-height: 60px;
+    padding: 30px 0 155px 0;
+    & > .list {
+        font-size: 16px;
+        color: #949697;
+        line-height: 24px;
+        display: flex;
+        padding: 90px 0;
+        & > li {
+            flex: 1;
+            box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.05);
+            background: #fff;
+            padding-bottom: 34px;
+            &:not(:first-child) {
+                margin-left: 20px;
+            }
+        }
+        .title {
+            color: #4C4C4E;
+            font-size: 32px;
+            // font-family: OPPOSans B;
+            font-weight: 500;
+            line-height: 32px;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    }
+}
+
+.global-view-b {
+    position: relative;
+    & > div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    .title {
+        font-size: 36px;
+        // font-family: OPPOSans H;
+        & > span {
+            display: inline-block;
+            line-height: 34px;
+            border-bottom: 12px solid #03B8EC;
+        }
+    }
+    .b-text {
+        font-size: 26px;
+        padding: 40px 0 50px 0;
+    }
+    .b-list {
+        display: inline-block;
+        width: 78%;
+        font-size: 24px;
+        text-align: left;
+        background:rgba(3, 184, 236, 0.44);
+        padding: 48px 0 48px 17%;
+        line-height: 36px;
+        & > li {
+            padding: 5px 0;
+            position: relative;
+            &::before {
+                content: '';
+                display: block;
+                width: 8px;
+                height: 8px;
+                background: #fff;
+                position: absolute;
+                top: 18px;
+                left: -30px;
+            }
+        }
+    }
+}
+
+.global-view-c {
+    font-size: 26px;
+    line-height: 45px;
+    color: #4C4C4E;
+    // font-family: OPPOSans L;
+    padding: 120px 0 140px 0;
+    text-align: center;
+    .title {
+        // font-family: OPPOSans B;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 36px;
+        font-size: 32px;
+    }
+    & > img {
+        display: block;
+        margin-top: 80px;
+        width: 60%;
+        margin-left: 20%;
+    }
+}

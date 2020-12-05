@@ -1,0 +1,234 @@
+.sales-view-a {
+  padding: 35px 0 160px 0;
+  font-size: 24px;
+  color: #4C4C4E;
+  overflow: hidden;
+}
+
+.sales-view-a .title {
+  text-align: right;
+  font-size: 36px;
+  padding-right: 130px;
+}
+
+.sales-view-a .title > span {
+  display: inline-block;
+  border-bottom: 12px solid #03B8EC;
+  line-height: 34px;
+}
+
+.sales-view-a .article-content > div {
+  position: relative;
+  width: 50%;
+  padding-top: 55px;
+}
+
+.sales-view-a .article-content > div.a-left {
+  float: left;
+  text-align: right;
+  padding-right: 55px;
+}
+
+.sales-view-a .article-content > div.a-left > .a-sub-title {
+  right: 450px;
+}
+
+.sales-view-a .article-content > div.a-left > .a-sub-title::before {
+  border-radius: 0 135px 135px 0;
+  background: #F2F8FE;
+  right: -70px;
+}
+
+.sales-view-a .article-content > div.a-right {
+  float: right;
+  text-align: left;
+  padding-left: 55px;
+}
+
+.sales-view-a .article-content > div.a-right > .a-sub-title {
+  left: 450px;
+}
+
+.sales-view-a .article-content > div.a-right > .a-sub-title::before {
+  border-radius: 135px 0 0 135px;
+  background: #F3FAFD;
+  left: -70px;
+}
+
+.sales-view-a .article-content > div p {
+  padding: 8px 0;
+}
+
+.sales-view-a .article-content > div p > span {
+  display: inline-block;
+  width: 290px;
+  line-height: 66px;
+  border-radius: 33px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.sales-view-a .article-content > div > .a-sub-title {
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.sales-view-a .article-content > div > .a-sub-title > span {
+  display: inline-block;
+  width: 293px;
+  line-height: 140px;
+  border-radius: 70px;
+  text-align: center;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 5;
+  background: #fff;
+}
+
+.sales-view-a .article-content > div > .a-sub-title::before {
+  content: '';
+  display: block;
+  width: 300%;
+  height: 270px;
+  position: absolute;
+  top: 50%;
+  margin-top: -135px;
+  z-index: -5;
+}
+
+.sales-view-b {
+  position: relative;
+  overflow: hidden;
+}
+
+.sales-view-b::after, .sales-view-b::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.sales-view-b::after {
+  background-color: #E5F6FF;
+  right: calc(45% + 400px);
+}
+
+.sales-view-b::before {
+  right: 45%;
+  background-image: url("../images/sales/img3.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.sales-view-b > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.sales-view-b > div > .article-content {
+  padding: 0 130px;
+  display: flex;
+  height: 100%;
+}
+
+.sales-view-b > div > .article-content > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.sales-view-b > div > .article-content > div > * {
+  width: 100%;
+}
+
+.sales-view-b > div .b-info {
+  font-size: 24px;
+  color: #B0B1B2;
+  line-height: 36px;
+}
+
+.sales-view-b > div .b-info > .title {
+  font-size: 36px;
+  color: #4C4C4E;
+  margin-bottom: 40px;
+}
+
+.sales-view-b > div .b-info > .title > span {
+  display: inline-block;
+  border-bottom: 12px solid #03B8EC;
+  line-height: 34px;
+}
+
+.sales-view-b > div .b-info > .btn {
+  padding-top: 45px;
+}
+
+.sales-view-b > div .b-list {
+  font-size: 32px;
+  color: #fff;
+  text-align: right;
+  line-height: 40px;
+}
+
+.sales-view-b > div .b-list > li {
+  position: relative;
+  padding: 16px 40px 16px 0;
+}
+
+.sales-view-b > div .b-list > li::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #BBBBBB;
+  position: absolute;
+  right: 0;
+  top: 27px;
+}
+
+.sales-view-c {
+  text-align: right;
+  background: url("../images/sales/img2.png") no-repeat left center;
+  background-size: auto 80%;
+  padding: 185px 130px 200px 0;
+  font-size: 24px;
+  color: #B0B1B2;
+  line-height: 34px;
+}
+
+.sales-view-c > .title {
+  font-size: 36px;
+  color: #4C4C4E;
+  margin-bottom: 40px;
+}
+
+.sales-view-c > .title > span {
+  display: inline-block;
+  border-bottom: 12px solid #03B8EC;
+  line-height: 34px;
+}
+
+.sales-view-c > .btn {
+  padding-top: 45px;
+}
+
+@media screen and (max-width: 1350px) {
+  .sales-view-c {
+    background-size: auto 57%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .sales-view-c {
+    background-size: auto 60%;
+  }
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width:1366px){
+    .nav-view{
+        height: 530px;
+        background-size: 80% auto;
+        padding: 75px 0 10px 75px;
+        font-size: 16px;
+    }
+    .nav-view>ul>li .join{
+        background-size: 20px auto;
+    }
+    .nav-view>ul>li>a{
+        padding: 5px 0 5px 25px;
+        background-size: 20px auto;
+    }
+    .nav-view > ul > li:hover:not(:first-child), .nav-view > ul > li.active {
+      font-size: 19px;
+    }
+    .nav-view > ul > li > a.active {
+        font-size: 20px;
+    }
+    .nav-view .sub-nav>li{
+        font-size: 14px;
+    }
+    .nav-view .sub-nav{
+        left: 115px;
+    }
+    .nav-view .sub-nav > li.active, .nav-view .sub-nav > li:hover {
+        font-size: 16px;
+    }
+    .nav-view .sub-nav .title {
+        font-size: 16px;
+      }
+}

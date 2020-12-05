@@ -1,0 +1,143 @@
+footer {
+  color: #444444;
+  line-height: 30px;
+}
+
+footer a {
+  color: #444444;
+}
+
+footer li {
+  padding: 5px 0;
+}
+
+footer .footer-info {
+  padding-top: 45px;
+  height: 340px;
+  display: flex;
+  position: relative;
+}
+
+footer .footer-info > ul:nth-last-child(1) {
+  width: 330px;
+  text-align: right;
+}
+
+footer .footer-info > ul:not(:last-child) {
+  flex: 1;
+}
+
+footer .footer-info > ul .title {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+footer .footer-record {
+  font-size: 12px;
+  line-height: 40px;
+  padding: 20px 0;
+  text-align: right;
+  color: #828282;
+}
+
+footer .footer-record > p {
+  background: url("../icons/choicewell.png") no-repeat left center;
+  background-size: 130px auto;
+}
+
+footer .footer-line {
+  width: 100%;
+  height: 1px;
+  background: #C6C6C6;
+}
+
+footer .footer-line > .article-content {
+  position: relative;
+}
+
+footer .icon-record {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+footer .icon-record::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10px 0 0 -10px;
+  background: url("../icons/record.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+footer .link-logo {
+  position: absolute;
+  right: 0;
+  bottom: 35px;
+}
+
+footer .link-logo > li {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px auto;
+  padding: 0;
+}
+
+footer .link-logo > li.logo-qr {
+  background-image: url("../icons/img8.png");
+}
+
+footer .link-logo > li.logo-link {
+  background-image: url("../icons/img7.png");
+}
+
+footer .link-logo > li.logo-link > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer .link-logo > li > .content {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  height: 0px;
+  overflow: hidden;
+  transition: all .5s;
+}
+
+footer .link-logo > li > .content > img {
+  width: 130px;
+}
+
+footer .link-logo > li > .content > p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+footer .link-logo > li > .content > p a {
+  color: #0077B5;
+}
+
+footer .link-logo > li:nth-child(1):hover > .content {
+  height: 130px;
+}
+
+footer .link-logo > li:nth-child(3):hover > .content {
+  height: 30px;
+}

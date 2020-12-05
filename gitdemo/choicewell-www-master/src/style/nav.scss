@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    min-width: 100%;
+}
+.nav-view {
+    width: 400px;
+    height: 600px;
+    background: url("../images/nav/nav-bg.png") no-repeat center;
+    background-size: 100% auto;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    padding: 60px 0 0 55px;
+    // font-family: OPPOSans;
+    &:hover {
+        & > ul > li > a > span {
+            opacity: 1;
+        }
+    }
+    a {
+        color: #fff;
+    }
+    & > ul {
+        padding: 30px 0 30px 35px;
+        & > li {
+            position: relative;
+            &:hover:not(:first-child),
+            &.active {
+                font-size: 24px;
+                .sub-nav {
+                   display: block;
+                   opacity: 1; 
+                }
+            }
+            & > a {
+                display: block;
+                line-height: 40px;
+                padding: 13px 0 13px 45px;
+                background-repeat: no-repeat;
+                background-position: left center;
+                background-size: 25px auto;
+                transition: font-size .5s;
+                & > span {
+                    opacity: 0;
+                    transition: opacity .5s;
+                }
+                &.active {
+                    font-size: 26px;
+                }
+            }
+            .nav {
+                background-image: url("../icons/nav.png");
+            }
+            .plan {
+                background-image: url("../icons/plan.png");
+            }
+            .services {
+                background-image: url("../icons/support.png");
+            }
+            .case {
+                background-image: url("../icons/case.png");
+            }
+            .about-us {
+                background-image: url("../icons/recruit.png");
+            }
+            .join {
+                background-image: url("../icons/about.png");
+                background-size: 23px auto;
+            }
+            .home {
+                background-image: url("../icons/nav.png");
+            }
+            .contact {
+                background-image: url("../icons/contact.png");
+            }
+        }
+    }
+    .sub-nav {
+        position: absolute;
+        top: 0;
+        left: 145px;
+        font-size: 16px;
+        padding: 10px 0 10px 0;
+        background: linear-gradient(270deg,rgba(0,126,203,0) 0%,rgba(0,126,203,.3) 100%);
+        border-radius: 10px 0 0 10px;
+        z-index: 20;
+        opacity: 0;
+        display: none;
+        transition: all .5s;
+        & > li {
+            display: inline-block;
+            font-size: 18px;
+            padding: 8px 15px;
+            transition: all .5s;
+            line-height: 20px;
+            &.active,
+            &:hover {
+                font-size: 20px;
+            }
+        }
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+            cursor: default;
+        }
+        &.plan-sub-nav {
+            & > li {
+                padding-left: 30px;
+            }
+            & > .title {
+                padding-left: 15px;
+            }
+        }
+    }
+    
+}
